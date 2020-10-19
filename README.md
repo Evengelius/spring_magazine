@@ -43,7 +43,7 @@ CRUD operations on table :<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.
 
 **Authentication management | Spring Security**<br />
-Implementation of the JSON Web Token | JWT.
+Implementation of the JSON Web Token | JWT : using public key and secret key.
 
 **Data mapping management**<br />
 Implementation of the Data Transfer Object or DTO, with MapStruct.
