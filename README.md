@@ -50,11 +50,9 @@ Implementation of the Data Transfer Object or DTO, with MapStruct.
 
 ## API Endpoints | Postman
 
-You need to be authenticated in order to use these endpoints.<br />
-Also, here the example stands for *commands*.<br />
-It can replaced by : drinks, burgers, or users.
+You need to be authenticated in order to use this endpoint.<br />
+We are talking about the api that finds an article by id, and renders it.<br />
 <br /><br />
-Finally, in order to use these endpoints, you need to be authenticated.
 
 ```
 GET
