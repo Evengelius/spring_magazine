@@ -4,7 +4,7 @@
 
 # Spring | Magazine
 
-This is a fast-food application.
+This is a magazine application.
 
 
 ## Getting Started
@@ -13,21 +13,20 @@ Spring(boot) takes care of everything on the back end | server side.
 
 <ins>Before going further, please make sure you are processing the repositories in order as follow</ins> : 
 
-* [Php](https://github.com/Evengelius/php_fastfood)<br />
-* [Spring](https://github.com/Evengelius/spring_fastfood)<br />
-* [Angular](https://github.com/Evengelius/angular_fastfood)<br />
+* [Spring](https://github.com/Evengelius/spring_magazine)<br />
+* [Angular](https://github.com/Evengelius/angular-magazine)<br />
 
 ### Installing
 
 ```
-1. git clone https://github.com/Evengelius/spring_fastfood.git your_desired_name
+1. git clone https://github.com/Evengelius/spring_magazine.git your_desired_name
 
 2. // Change the Project SDK version to 14 | Intellij
    File | Project Structure | Project Settings: Project | Project SDK : 14
 
 3. // application.properties
    #Database Connection
-    spring.datasource.url= jdbc:mysql://localhost:3306/fastfood?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    spring.datasource.url= jdbc:mysql://localhost:3306/spring_magazine?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     spring.datasource.username=yourUsername
     spring.datasource.password=yourPassword
     
@@ -38,12 +37,7 @@ Spring(boot) takes care of everything on the back end | server side.
 
 **CRUD - Create | Read | Update | Delete**<br />
 CRUD operations on tables :<br />
-* Commande
-* Burger
-* Boisson
-* Serveur
-    * This table manages the admin users.<br />
-      You need to be logged in as an admin in order to access the admin panel and perform admin tasks : angular side.
+* User
 
 **Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.
@@ -64,21 +58,14 @@ Finally, in order to use these endpoints, you need to be authenticated.
 
 ```
 GET
-       /api/commands
-       /api/commands/{id}
-POST
-       /api/commands
-PUT
-       /api/commands/{id}
-DELETE
-       /api/commands/{id}
+       /api/articles/{id}
 
 -----------------------------
 
 Authentication | JWT
 
 POST
-       /api/users/register
+       /api/users
 POST
        /api/users/login
 ```
