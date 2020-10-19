@@ -39,7 +39,7 @@ Spring(boot) takes care of everything on the back end | server side.
 CRUD operations on tables :<br />
 * User
 
-**Exception handling**<br />
+**Custom Exception handling**<br />
 Errors on the server side are handled by various exceptions returning an HTTP status: 400 - 500 - 404.
 
 **Authentication management | Spring Security**<br />
@@ -79,6 +79,10 @@ Once registered, it generates a JWT, that you need to put in, *Authorization | T
 **Registration**
 
 ![Authentication | Register](https://zupimages.net/up/20/43/vktp.png)
+
+**Custom Exception**
+
+![Custom | Exception](https://zupimages.net/up/20/43/987i.png)
 
 **Hibernate | Query**
 
