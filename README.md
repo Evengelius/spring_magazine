@@ -78,7 +78,7 @@ Once registered, it generates a JWT, that you need to put in, *Authorization | T
 
 **Registration**
 
-![Authentication | Register](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring.png)
+![Authentication | Register](https://zupimages.net/up/20/43/vktp.png)
 
 **Hibernate | Query**
 
@@ -86,8 +86,8 @@ Once registered, it generates a JWT, that you need to put in, *Authorization | T
 
 **Login | JWT generated**
 
-![Authentication | Login](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring-login.png)
+![Authentication | Login](https://zupimages.net/up/20/43/h2sn.png)
 
 **Authenticated | Show Endpoint**
 
-![Authentication | Authenticated](https://image.noelshack.com/fichiers/2020/29/1/1594596785-jwt-spring-authenticated.png)
+![Authentication | Authenticated](https://zupimages.net/up/20/43/hmo3.png)
