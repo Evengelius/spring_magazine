@@ -45,7 +45,7 @@ Errors on the server side are handled by various exceptions returning an HTTP st
 **Authentication management | Spring Security**<br />
 Implementation of the JSON Web Token | JWT : using public key and secret key.
 
-**Data mapping management**<br />
+**Data Mapping management**<br />
 Implementation of the Data Transfer Object or DTO, with MapStruct.
 
 ## API Endpoints | Postman
