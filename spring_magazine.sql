@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : mar. 20 oct. 2020 à 09:01
+-- Généré le : mar. 20 oct. 2020 à 09:12
 -- Version du serveur :  5.7.24
 -- Version de PHP : 7.2.19
 
@@ -162,7 +162,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `firstname`, `name`, `password`, `role`, `username`) VALUES
-(3, 'doejohn@gmail.com', 'john', 'doe', '$2a$10$PVWQUN1iFcrehXHikRlzR.fCAdzUdGRgNW3E2eYPYyH/rDYL/G1ki', 'admin', 'evengelius');
+(1, 'admin@gmail.com', 'john', 'doe', '$2a$10$VJ1PcTme7WmKVryzcgzH.efvPn30/4S9H4l3aOoEEn6.6tYgQKk2S', 'admin', 'admin');
 
 --
 -- Index pour les tables déchargées
@@ -237,7 +237,7 @@ ALTER TABLE `images`
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Contraintes pour les tables déchargées
