@@ -23,20 +23,20 @@ Spring(boot) takes care of everything on the back end | server side.
 
 2. // Change the Project SDK version to 14 | Intellij
    File | Project Structure | Project Settings: Project | Project SDK : 14
+   
+3. Create a database and name it spring_magazine.
 
-3. // application.properties
+4. Import the SQL file present here, in your database.
+
+5. // application.properties
    #Database Connection
     spring.datasource.url= jdbc:mysql://localhost:3306/spring_magazine?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     spring.datasource.username=yourUsername
     spring.datasource.password=yourPassword
-    
-4. Create a database and name it fastfood.
-
-5. Import the SQL file present here, in your database.
 
 6. Preset credentials => user: admin | password: admin
 
-6. Test it | Postman.
+7. Test it | Postman.
 ```
 
 ## Functionnalities
