@@ -30,7 +30,13 @@ Spring(boot) takes care of everything on the back end | server side.
     spring.datasource.username=yourUsername
     spring.datasource.password=yourPassword
     
-4. Test it | Postman.
+4. Create a database and name it fastfood.
+
+5. Import the SQL file present here, in your database.
+
+6. Preset credentials => user: admin | password: admin
+
+6. Test it | Postman.
 ```
 
 ## Functionnalities
