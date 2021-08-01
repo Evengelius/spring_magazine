@@ -64,7 +64,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 			.authorizeRequests()
 				.antMatchers("/api/users/**").permitAll()
 				.antMatchers("/api/roles/**").permitAll()
-				.antMatchers("/api/**").permitAll()
+				.antMatchers("/api/articles").permitAll()
+				.antMatchers("/api/collections").permitAll()
+				.antMatchers("/api/images").permitAll()
 				.anyRequest().authenticated();
 
 		// JWT Authentication

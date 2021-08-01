@@ -55,6 +55,14 @@ public class User {
 	@Column(length = 30, nullable = false)
 	private String role = "user";
 
+	/**
+	 *
+	 * @param name - name
+	 * @param firstname - firstName
+	 * @param username - username
+	 * @param email - email
+	 * @param password - password
+	 */
 	public User(String name, String firstname, String username, String email, String password) {
 		this.name = name;
 		this.firstname = firstname;
